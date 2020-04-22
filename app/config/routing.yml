@@ -1,0 +1,31 @@
+schedule:
+    resource: "@ScheduleBundle/Resources/config/routing.yml"
+    prefix:   /
+
+prices:
+    resource: "@PricesBundle/Resources/config/routing.yml"
+    prefix:   /
+
+del_log:
+    resource: "@DelLogBundle/Resources/config/routing.yml"
+    prefix:   /
+
+queue:
+    resource: "@QueueBundle/Resources/config/routing.yml"
+    prefix:   /
+
+pictures_del:
+    resource: "@PicturesDelBundle/Resources/config/routing.yml"
+    prefix:   /
+
+pictures_back:
+    resource: "@PicturesBackBundle/Resources/config/routing.yml"
+    prefix:   /
+
+pictures:
+    resource: "@PicturesBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

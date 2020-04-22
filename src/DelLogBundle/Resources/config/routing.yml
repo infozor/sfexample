@@ -1,0 +1,7 @@
+#del_log_homepage:
+#    path:     /
+#    defaults: { _controller: DelLogBundle:Default:index }
+
+del_log_delete:
+    path:     /log_delete
+    defaults: { _controller: DelLogBundle:Delete:index}

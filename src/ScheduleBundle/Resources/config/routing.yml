@@ -1,0 +1,11 @@
+schedule_homepage:
+    path:     /
+    defaults: { _controller: ScheduleBundle:Default:index }
+    
+schedule_load:
+    path:     /schedule_worker
+    defaults: { _controller: ScheduleBundle:Worker:index}    
+
+schedule_switch:
+    path:     /schedule_switch
+    defaults: { _controller: ScheduleBundle:Switch:index}    
